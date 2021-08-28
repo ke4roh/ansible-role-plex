@@ -37,4 +37,6 @@ galaxy_info:
     - system
     - apb
 
-dependencies: []
+dependencies:
+   - src: wilmardo.ansible_role_tautulli
+   - src: wilmardo.plexupdate
