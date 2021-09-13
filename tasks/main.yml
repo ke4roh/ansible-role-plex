@@ -5,10 +5,10 @@
 
 - name: Include wilmardo.tautulli
   include_role:
-    name: tautulli
+    name: wilmardo.ansible_role_tautulli
   when: tautulli_install
 
 - name: Include wilmardo.plexupdate
   include_role:
-    name: plexupdate
+    name: wilmardo.plexupdate
   when: plexupdate_install
